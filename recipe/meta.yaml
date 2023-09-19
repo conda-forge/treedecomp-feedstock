@@ -1,5 +1,5 @@
 {% set name = "treedecomp" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3228d7a504d5429112ae2afa6d15d1bf3a208fb1f5bc9aa475e874747a3c3a9b
+  sha256: a64c5cf5005ab2f4950eeef806e337049ac56f5908917e0849de884833669234
 
 build:
   noarch: python
